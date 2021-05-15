@@ -3,7 +3,7 @@ package cuiApplication;
 import java.util.Scanner;
 
 public class CUIApplication {
-
+	public static void main(String[] args) {
 	String username, password;
 	int totalattempts = 3;
 	
@@ -32,4 +32,5 @@ public class CUIApplication {
 
 }
 }
+
 
