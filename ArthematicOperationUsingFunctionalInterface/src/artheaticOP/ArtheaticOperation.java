@@ -5,7 +5,6 @@ import java.util.function.BiFunction;
 public class ArtheaticOperation {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		BiFunction<Integer, Integer, Integer> funcAddObj =(i1, i2) -> i1+i2;
 		BiFunction<Integer, Integer, Integer> funcSubtracObj =(i1, i2) -> i1-i2;
 		BiFunction<Integer, Integer, Integer> funcDivideObj =(i1, i2) -> i1/i2;
