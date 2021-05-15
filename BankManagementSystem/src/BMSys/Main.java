@@ -2,7 +2,6 @@ package BMSys;
 public class Main extends AccountHolders{
 	static int totalSavingAcc;
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		   
 		SavingAcc S1 = new SavingAcc(1, "S1", 200, 39);
 		SavingAcc S2 = new SavingAcc(2, "S2", 300, 29);
