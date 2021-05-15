@@ -21,6 +21,8 @@ public class BankAccountList {
 		   set.add(b2);  
 		   set.add(b3);
 		   set.add(b4);
+		   set.add(b5);
+
 		     
 		   for(SavingAccount b:set){  
 		   System.out.println("Account Id:"+b.acc_ID+ 
