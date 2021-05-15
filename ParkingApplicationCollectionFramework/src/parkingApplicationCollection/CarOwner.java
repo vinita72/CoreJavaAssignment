@@ -53,10 +53,10 @@ public class CarOwner implements Comparable<CarOwner> {
 	}
 	
 }
-class ParkOrder implements Comparator<CarOwner>{
-@Override
-public int compare(CarOwner e1, CarOwner e2) {
-return e1.getOwnerName().compareTo(e2.getOwnerName());
-}
-	
+	class ParkOrder implements Comparator<CarOwner>{
+	@Override
+	public int compare(CarOwner e1, CarOwner e2) {
+	return e1.getOwnerName().compareTo(e2.getOwnerName());
+	}
+		
 }
